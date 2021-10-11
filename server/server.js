@@ -6,7 +6,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://nithin:nithin@cluster0.le9a7.mongodb.net/urlShortener?retryWrites=true&w=majority",
+    "mongodb+srv://nithin:nithin@cluster0.b3mnc.mongodb.net/url?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
